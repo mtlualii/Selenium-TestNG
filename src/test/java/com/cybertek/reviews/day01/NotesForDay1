@@ -1,0 +1,37 @@
+1. Zoom with mouse: settings -> Editor -> General -> Click the bow of Mouse control
+2. Project SDK: Project Structure -> select the SDK you have ( JDJ8 or 11, ..)
+
+What is Maven?
+Built tool, the POM.XML file, we give dependencies
+Built: repeated steps when creating a project
+creating folders, compiling
+
+3. Maven -> download sources and documentation
+4. File ->x Invalidate and restart
+
+What is Selenium: Library that we use to automate web pages
+
+
+
+
+
+TC #1: YahooTitle Verification
+1.Open Chrome browser
+2.Go to https://www.yahoo.com/
+3.Verify title:
+Expected: Yahoo
+TC #2: Cybertekpractice toolverifications
+1.Open Chrome browser
+2.Go to https://practice.cybertekschool.com/
+3.Verify URL contains
+Expected: cybertekschool
+4.Verify title:
+Expected: Practice
+
+driver.quit()
+    - will close all of the opened browsers or tabs for the same session
+    - will kill the current session completely
+
+What is a session?
+- a driver session is created when we click the run button. It ends when the selenium code stops
+- or when we say driver.quit
